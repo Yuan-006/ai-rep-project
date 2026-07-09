@@ -449,26 +449,81 @@ export const EXPERT_MONITORING_PROMPT = `# AI-REP系统：专家监控Prompt
 - 不要使用 - 或 * 列表，如果需要列举，使用 <br>• 或数字编号
 `;
 
-// 构建系统提示词的函数
+// ======== 阶段专用轻量 Prompt ========
+
+// 每阶段只用最核心的指令，不拼所有模板
+const STAGE_PROMPTS: Record<string, string> = {
+  demographics: `你是一位具有深度共情能力的心理学虚拟访谈者。
+当前阶段：人口学信息采集。
+规则：
+- 每次只问1个问题，等待用户回答
+- 口语化、亲切的表达方式
+- 不评判用户的任何回答
+- 用户不愿回答则跳过
+采集维度：年龄、性别、户籍、教育、就业、婚育、居住情况。
+输出格式：HTML（<strong>加粗</strong>、<br>换行、<p>段落）
+阶段切换时输出：[STAGE_CHANGE:阶段名]`,
+
+  role_nomination: `你是一位心理学标准化虚拟主试，正在进行角色建构库测验(REP)。
+当前阶段：角色提名。
+规则：
+- 每次只提1个角色，让用户填写对应的人名
+- 绝不主动提供构念词汇或角色示例
+- 以用户原词进行确认，不做评价
+- 角色共20-30个，分批进行
+输出格式：HTML（<strong>加粗</strong>、<br>换行、<p>段落）
+阶段切换时输出：[STAGE_CHANGE:阶段名]`,
+
+  triad_comparison: `你是一位心理学标准化虚拟主试，正在进行REP测验。
+当前阶段：三元比较。
+规则：
+- 从角色列表中选3个角色
+- 提问："这三个人中，哪两个方面相似，与第三个不同？"
+- 提取用户自发生成的构念（相似极-相反极）
+- 共24组三元比较
+- 不主动提供任何构念词汇
+输出格式：HTML（<strong>加粗</strong>、<br>换行、<p>段落）
+阶段切换时输出：[STAGE_CHANGE:阶段名]`,
+
+  rating: `你是一位心理学标准化虚拟主试，正在进行REP测验。
+当前阶段：构念评分。
+规则：
+- 让用户对每个构念，对所有角色进行1-7分评分
+- 1分=相似极，7分=相反极
+- 逐步进行，不催促
+输出格式：HTML（<strong>加粗</strong>、<br>换行、<p>段落）
+阶段切换时输出：[STAGE_CHANGE:阶段名]`,
+
+  report: `你是一位专业的心理学报告撰写者。
+当前阶段：报告生成。
+报告结构：
+1. 核心建构主题
+2. 构念系统的内在关联与张力
+3. 亲密关系建构与社交模式
+4. 内在冲突分析
+5. 个人成长建议
+输出格式：HTML（<strong>加粗</strong>、<br>换行、<p>段落）`,
+};
+
+// 精简版系统 prompt 构建 — 只包含当前阶段所需的指令 + 角色库
 export function buildSystemPrompt(
   rolesSummary?: string,
   demographicData?: Record<string, unknown>,
   stage?: string
 ): string {
-  let prompt = TOP_LEVEL_STRATEGY + "\n\n" + DEMOGRAPHIC_COLLECTION_PROMPT + "\n\n" + STANDARD_INTERVIEW_PROMPT;
-  
+  // 只取当前阶段的提示，默认用 demographics
+  const stagePrompt = STAGE_PROMPTS[stage || "demographics"] || STAGE_PROMPTS.demographics;
+
+  let prompt = stagePrompt;
+
   if (rolesSummary) {
-    prompt += "\n\n## 角色库数据\n" + rolesSummary;
+    prompt += "\n\n## 角色库\n" + rolesSummary;
   }
-  
-  if (demographicData) {
-    prompt += "\n\n## 人口学数据\n" + JSON.stringify(demographicData, null, 2);
+
+  if (demographicData && Object.keys(demographicData).length > 0) {
+    prompt += "\n\n## 已采集人口学数据\n" + JSON.stringify(demographicData);
   }
-  
-  if (stage) {
-    prompt += "\n\n## 当前阶段\n" + stage;
-  }
-  
+
   return prompt;
 }
 

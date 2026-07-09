@@ -5,6 +5,9 @@ import rolesData from "@/lib/roles-data.json";
 
 export const runtime = "nodejs";
 
+// 预计算角色摘要 — 模块加载时执行一次，避免每次请求都重建
+const ROLES_SUMMARY = buildRolesSummary(rolesData);
+
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
@@ -20,22 +23,21 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Build system prompt with roles data
-    const rolesSummary = buildRolesSummary(rolesData);
-    const systemPrompt = buildSystemPrompt(rolesSummary);
+    // 用阶段专用精简 prompt + 预计算的角色摘要
+    const systemPrompt = buildSystemPrompt(ROLES_SUMMARY, undefined, stage);
 
-    // Construct full message list with system prompt
     const fullMessages: ChatMessage[] = [
       { role: "system", content: systemPrompt },
       ...messages,
     ];
 
-    // Get temperature based on stage
     const temperature = getTemperatureForStage(stage);
+    // 根据阶段调整 max_tokens — 简单回复用更少 tokens
+    const maxTokens = getMaxTokensForStage(stage);
 
     const stream = await streamChat(fullMessages, {
       temperature,
-      max_tokens: 2000,
+      max_tokens: maxTokens,
       top_p: 0.9,
     });
 
@@ -73,6 +75,23 @@ function getTemperatureForStage(stage?: string): number {
   }
 }
 
+function getMaxTokensForStage(stage?: string): number {
+  switch (stage) {
+    case "demographics":
+      return 500;       // 简短提问
+    case "role_nomination":
+      return 400;       // 简短确认
+    case "triad_comparison":
+      return 600;       // 中等追问
+    case "rating":
+      return 300;       // 指令式
+    case "report":
+      return 3000;      // 完整报告
+    default:
+      return 800;
+  }
+}
+
 interface RolesJsonData {
   roles: Array<{
     id: number;
@@ -89,17 +108,18 @@ interface RolesJsonData {
 function buildRolesSummary(data: unknown): string {
   const rolesJson = data as RolesJsonData;
   const categories = rolesJson.categories;
-  const lines: string[] = ["# 中国本土高频角色关系库\n"];
+  // 精简格式：每角色一行
+  const lines: string[] = ["# 角色库\n"];
 
   for (const category of categories) {
-    lines.push(`## ${category}`);
     const categoryRoles = rolesJson.roles.filter(
       (r) => r.category === category
     );
+    if (categoryRoles.length === 0) continue;
+    lines.push(`## ${category}`);
     for (const role of categoryRoles) {
-      const tags = role.tags.join("、");
       lines.push(
-        `- **${role.role_name}**（${role.definition}）[权重:${role.match_weight}] 适用:${role.applicable_population} 标签:${tags}`
+        `- ${role.role_name}：${role.definition}（适用:${role.applicable_population}）`
       );
     }
     lines.push("");
