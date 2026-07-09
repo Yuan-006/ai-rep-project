@@ -1,0 +1,2893 @@
+{
+  "version": "2.0",
+  "generated_date": "2026-07-09",
+  "total_roles": 161,
+  "categories": [
+    "自己",
+    "家庭与亲属",
+    "朋友与同伴",
+    "权威与师长",
+    "价值与态度人物",
+    "信息时代新兴关系",
+    "半熟人",
+    "数字身份与虚拟关系",
+    "失联与记忆关系",
+    "流动与迁移",
+    "医疗与健康",
+    "生命阶段同伴",
+    "农村与乡土",
+    "信仰与精神"
+  ],
+  "tag_domain": {
+    "age": [
+      "10-18岁",
+      "19-22岁",
+      "23-30岁",
+      "31-45岁",
+      "46-60岁",
+      "60岁以上"
+    ],
+    "occupation": [
+      "学生",
+      "互联网从业者",
+      "医护人员",
+      "教育工作者",
+      "企业管理者",
+      "自由职业",
+      "服务业人员",
+      "企事业单位员工",
+      "其他"
+    ],
+    "marital_status": [
+      "单身",
+      "恋爱中",
+      "已婚",
+      "离异"
+    ],
+    "has_children": [
+      "有子女",
+      "无子女"
+    ],
+    "student_status": [
+      "在读学生",
+      "非学生"
+    ],
+    "residence_type": [
+      "城市",
+      "农村"
+    ],
+    "hometown_relation": [
+      "本地人",
+      "外地人"
+    ],
+    "has_pet": [
+      "有宠物",
+      "无宠物"
+    ],
+    "other_tags": [
+      "必选角色",
+      "核心家庭",
+      "兄弟姐妹",
+      "亲密关系",
+      "隔代亲属",
+      "亲戚网络",
+      "同辈朋友",
+      "社交伙伴",
+      "兴趣同伴",
+      "熟人关系",
+      "半熟人",
+      "权威关系",
+      "教育关系",
+      "职场关系",
+      "社会影响",
+      "价值判断",
+      "同情关怀",
+      "复杂关系",
+      "数字原住民",
+      "有网络社交",
+      "有线上社群",
+      "高频服务",
+      "居住关系",
+      "虚拟身份",
+      "数字陪伴",
+      "失联关系",
+      "记忆关系",
+      "全员适用",
+      "拟制血缘",
+      "农村社交",
+      "老年社交",
+      "同学关系",
+      "校友关系",
+      "宿舍关系",
+      "医疗健康",
+      "心理健康",
+      "宗教社群",
+      "信仰关系",
+      "流动人口",
+      "老乡关系",
+      "离异相关",
+      "创业相关",
+      "退役军人",
+      "生命阶段同伴",
+      "内容创作者",
+      "重组家庭",
+      "养老照护",
+      "育儿阶段",
+      "农村乡土",
+      "平台经济",
+      "有宠物",
+      "有健身经历",
+      "有社交活动",
+      "有社交史",
+      "有恋爱经历",
+      "有线上学习经历",
+      "有社交媒体",
+      "有游戏经历",
+      "有户外爱好",
+      "有阅读社交习惯",
+      "有创作习惯",
+      "有追星经历",
+      "有语言学习需求",
+      "有外卖消费习惯",
+      "有网购习惯",
+      "有打车习惯",
+      "有长期服务订阅",
+      "有管理经历",
+      "有对外业务对接",
+      "有职场经历",
+      "有工作或学习经历",
+      "有合租经历",
+      "有旅行经历",
+      "有稳定伴侣",
+      "有伴侣",
+      "有子女",
+      "有复杂人际关系者",
+      "有社交拓展意愿者",
+      "有固定社交活动",
+      "有固定理发师",
+      "有家政服务",
+      "有固定工作或住所",
+      "有导师或师父",
+      "有干亲/结拜关系",
+      "有失联朋友",
+      "有虚拟偶像偏好",
+      "深度使用AI工具",
+      "活跃的社交媒体用户",
+      "有特定社交场景需求者",
+      "有健身习惯",
+      "有面试/求职经历",
+      "有宗教信仰",
+      "有军队服役经历",
+      "有离婚经历",
+      "有留守经历",
+      "有创业经历",
+      "有返乡经历",
+      "有孕期经历",
+      "有月子经历",
+      "有高考备考经历",
+      "有失业/求职经历",
+      "有长期疾病",
+      "有残障",
+      "有少数民族背景",
+      "为人父母",
+      "需要赡养父母",
+      "有租房经历",
+      "农村成长背景",
+      "县城成长背景"
+    ]
+  },
+  "roles": [
+    {
+      "id": 1,
+      "role_name": "现在的自己",
+      "definition": "你自己",
+      "category": "自己",
+      "tags": [
+        "全员适用",
+        "必选角色"
+      ],
+      "match_weight": 10,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 2,
+      "role_name": "过去的自己",
+      "definition": "过去的你，或10多岁时的你",
+      "category": "自己",
+      "tags": [
+        "全员适用",
+        "必选角色"
+      ],
+      "match_weight": 10,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 3,
+      "role_name": "理想中的自己",
+      "definition": "你希望成为的那种人",
+      "category": "自己",
+      "tags": [
+        "全员适用",
+        "必选角色"
+      ],
+      "match_weight": 10,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 4,
+      "role_name": "母亲",
+      "definition": "你的母亲，或在你的生活中扮演了母亲角色的人",
+      "category": "家庭与亲属",
+      "tags": [
+        "全员适用",
+        "核心家庭"
+      ],
+      "match_weight": 9,
+      "applicable_population": "所有用户",
+      "local_descriptor": "通用：妈妈、妈；北方农村：娘；粤语区：妈咪、妈子；闽南语区：阿母、母啊；口语中年轻人也常说\"我妈\"\"老妈\"",
+      "typical_situation": "日常照顾、情感支持、人生决策咨询",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 5,
+      "role_name": "父亲",
+      "definition": "你的父亲，或在你的生活中扮演了父亲角色的人",
+      "category": "家庭与亲属",
+      "tags": [
+        "全员适用",
+        "核心家庭"
+      ],
+      "match_weight": 9,
+      "applicable_population": "所有用户",
+      "local_descriptor": "通用：爸爸、爸；北方农村：爹、爹爹；粤语区：老豆、爹地；闽南语区：阿爸、爸啊；口语中\"我爸\"\"老爸\"很常见",
+      "typical_situation": "权威引导、经济支持、人生榜样",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 6,
+      "role_name": "最亲近的兄弟",
+      "definition": "和你年龄最接近的兄弟，或一个很像你兄弟的人",
+      "category": "家庭与亲属",
+      "tags": [
+        "全员适用",
+        "兄弟姐妹"
+      ],
+      "match_weight": 8,
+      "applicable_population": "所有用户",
+      "local_descriptor": "年长者称：哥哥、哥、大哥；年幼者称：弟弟、老弟、小弟；北方口语：哥、哥们儿；西南：哥老倌（四川方言）；粤语区：大佬（哥哥）、细佬（弟弟）",
+      "typical_situation": "成长陪伴、竞争与支持、手足情深或矛盾",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 7,
+      "role_name": "最亲近的姐妹",
+      "definition": "和你年龄最接近的姐妹，或一个很像你姐妹的人",
+      "category": "家庭与亲属",
+      "tags": [
+        "全员适用",
+        "兄弟姐妹"
+      ],
+      "match_weight": 8,
+      "applicable_population": "所有用户",
+      "local_descriptor": "年长者称：姐姐、姐、阿姐；年幼者称：妹妹、小妹、幺妹（西南方言）；粤语区：家姐（姐姐）、细妹（妹妹）；闽南语区：阿姊、小妹",
+      "typical_situation": "成长陪伴、情感倾诉、姐妹情深或比较",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 8,
+      "role_name": "配偶或恋人",
+      "definition": "你的妻子或丈夫，或现在的女朋友/男朋友",
+      "category": "家庭与亲属",
+      "tags": [
+        "18岁以上",
+        "恋爱中",
+        "已婚",
+        "亲密关系"
+      ],
+      "match_weight": 8,
+      "applicable_population": "有伴侣的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 9,
+      "role_name": "以前的恋人",
+      "definition": "在你与现在的配偶或恋人相处之前的一个最亲密的人",
+      "category": "家庭与亲属",
+      "tags": [
+        "23岁以上",
+        "有恋爱经历",
+        "已婚",
+        "恋爱中"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有恋爱史的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": {
+        "has_typical_mobility": true,
+        "direction": "由近变远",
+        "common_triggers": [
+          "分手",
+          "生活轨迹分化"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "role_name": "恋人父母",
+      "definition": "你恋人或配偶的父母，或准岳父母/准公婆",
+      "category": "家庭与亲属",
+      "tags": [
+        "恋爱中",
+        "已婚",
+        "23岁以上"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有稳定伴侣的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 11,
+      "role_name": "干亲或认亲关系",
+      "definition": "你认的干爹/干妈、干兄弟/干姐妹，或结拜兄弟/姐妹",
+      "category": "家庭与亲属",
+      "tags": [
+        "全员适用",
+        "熟人关系",
+        "拟制血缘"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有干亲/结拜关系的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 12,
+      "role_name": "祖父母",
+      "definition": "你印象最深刻的祖父或祖母",
+      "category": "家庭与亲属",
+      "tags": [
+        "全员适用",
+        "隔代亲属"
+      ],
+      "match_weight": 7,
+      "applicable_population": "所有用户",
+      "local_descriptor": "祖父（父系）：爷爷、祖父。祖母（父系）：奶奶、祖母。外祖父（母系）：外公（南方通用）、姥爷（北方）、老爷（部分北方）。外祖母（母系）：外婆（南方通用）、姥姥（北方）、老娘（部分北方）。粤语区：阿爷/阿公（祖父）、阿嫲/阿婆（祖母）。闽南语区：阿公（祖父）、阿嬷（祖母）",
+      "typical_situation": "隔代溺爱、童年记忆、家族传承",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 13,
+      "role_name": "关系最亲近的亲戚",
+      "definition": "除父母、兄弟姐妹外，与你关系最亲近的亲戚",
+      "category": "家庭与亲属",
+      "tags": [
+        "全员适用",
+        "亲戚网络"
+      ],
+      "match_weight": 7,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 14,
+      "role_name": "发小",
+      "definition": "你从小一起长大的朋友",
+      "category": "朋友与同伴",
+      "tags": [
+        "全员适用",
+        "同辈朋友",
+        "熟人关系"
+      ],
+      "match_weight": 7,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 15,
+      "role_name": "最亲密的同性朋友",
+      "definition": "你现在最亲密的同性朋友",
+      "category": "朋友与同伴",
+      "tags": [
+        "全员适用",
+        "同辈朋友"
+      ],
+      "match_weight": 8,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 16,
+      "role_name": "最亲密的异性朋友",
+      "definition": "你现在最亲密的异性朋友（非恋人）",
+      "category": "朋友与同伴",
+      "tags": [
+        "全员适用",
+        "同辈朋友"
+      ],
+      "match_weight": 8,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 17,
+      "role_name": "以前的亲密朋友",
+      "definition": "以前很亲密、但后来让你失望或疏远的同性朋友",
+      "category": "朋友与同伴",
+      "tags": [
+        "18岁以上",
+        "有社交史",
+        "失联关系"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有社交史的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": {
+        "has_typical_mobility": true,
+        "direction": "由近变远",
+        "common_triggers": [
+          "毕业异地",
+          "价值观冲突",
+          "生活轨迹分化"
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "role_name": "工作或学习中相处愉快的人",
+      "definition": "一个与他一起工作时非常容易相处的人",
+      "category": "朋友与同伴",
+      "tags": [
+        "非学生",
+        "已工作",
+        "学生",
+        "职场关系"
+      ],
+      "match_weight": 7,
+      "applicable_population": "有工作或学习经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 19,
+      "role_name": "工作或学习中难以相处的人",
+      "definition": "一个与他一起工作时很难相处的人",
+      "category": "朋友与同伴",
+      "tags": [
+        "非学生",
+        "已工作",
+        "学生",
+        "职场关系"
+      ],
+      "match_weight": 7,
+      "applicable_population": "有工作或学习经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 20,
+      "role_name": "合作最默契的同事",
+      "definition": "工作中与你配合最默契、最懂你的同事",
+      "category": "朋友与同伴",
+      "tags": [
+        "非学生",
+        "已工作",
+        "职场关系",
+        "同辈朋友"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有职场经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 21,
+      "role_name": "前同事",
+      "definition": "以前一起工作过、现在仍有联系的同事",
+      "category": "朋友与同伴",
+      "tags": [
+        "非学生",
+        "已工作",
+        "熟人关系"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有职场经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 22,
+      "role_name": "室友或合租伙伴",
+      "definition": "你当前或最近一起居住的室友",
+      "category": "朋友与同伴",
+      "tags": [
+        "18岁以上",
+        "城市",
+        "居住关系"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有合租经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 23,
+      "role_name": "相处融洽的邻居",
+      "definition": "一个与你相处融洽的邻居",
+      "category": "朋友与同伴",
+      "tags": [
+        "全员适用",
+        "居住关系",
+        "半熟人"
+      ],
+      "match_weight": 5,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 24,
+      "role_name": "难以理解的邻居",
+      "definition": "一个你认为很难理解的邻居",
+      "category": "朋友与同伴",
+      "tags": [
+        "全员适用",
+        "居住关系",
+        "半熟人"
+      ],
+      "match_weight": 5,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 25,
+      "role_name": "同门师兄弟/师姐妹",
+      "definition": "你与同一个导师或师父的同学或学徒",
+      "category": "朋友与同伴",
+      "tags": [
+        "学生",
+        "教育关系",
+        "同辈朋友"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有导师或师父的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 26,
+      "role_name": "旅行中喜欢的同伴",
+      "definition": "在结伴旅行时，你很喜欢的同性伙伴",
+      "category": "朋友与同伴",
+      "tags": [
+        "全员适用",
+        "社交伙伴"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有旅行经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 27,
+      "role_name": "旅行中不喜欢的同伴",
+      "definition": "在结伴旅行时，你不喜欢的同性伙伴",
+      "category": "朋友与同伴",
+      "tags": [
+        "全员适用",
+        "社交伙伴"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有旅行经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 28,
+      "role_name": "社交搭子",
+      "definition": "你经常一起进行某项社交活动的伙伴（如健身搭子、饭搭子等）",
+      "category": "朋友与同伴",
+      "tags": [
+        "18岁以上",
+        "有社交活动",
+        "城市",
+        "兴趣同伴"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有固定社交活动的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 29,
+      "role_name": "健身伙伴",
+      "definition": "你经常一起去健身、跑步或运动的伙伴",
+      "category": "朋友与同伴",
+      "tags": [
+        "16-45岁",
+        "有健身经历",
+        "兴趣同伴"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有健身习惯的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 30,
+      "role_name": "户外徒步或旅行伙伴",
+      "definition": "你经常一起户外徒步、登山或旅行的伙伴",
+      "category": "朋友与同伴",
+      "tags": [
+        "18岁以上",
+        "兴趣同伴",
+        "社交伙伴"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有户外爱好的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 31,
+      "role_name": "读书会书友",
+      "definition": "你在读书会或共读活动中认识、经常交流的朋友",
+      "category": "朋友与同伴",
+      "tags": [
+        "18岁以上",
+        "有线上社群",
+        "城市",
+        "兴趣同伴"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有阅读社交习惯的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 32,
+      "role_name": "喜欢的老师",
+      "definition": "一个你喜欢的老师",
+      "category": "权威与师长",
+      "tags": [
+        "全员适用",
+        "教育关系"
+      ],
+      "match_weight": 7,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 33,
+      "role_name": "不喜欢的老师",
+      "definition": "一个你不喜欢的老师",
+      "category": "权威与师长",
+      "tags": [
+        "全员适用",
+        "教育关系"
+      ],
+      "match_weight": 7,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 34,
+      "role_name": "影响最深的老师",
+      "definition": "对你影响最深的老师",
+      "category": "权威与师长",
+      "tags": [
+        "全员适用",
+        "教育关系",
+        "社会影响"
+      ],
+      "match_weight": 8,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 35,
+      "role_name": "严厉但公正的老师",
+      "definition": "对你要求严格但让你真正成长的老师",
+      "category": "权威与师长",
+      "tags": [
+        "全员适用",
+        "教育关系",
+        "社会影响"
+      ],
+      "match_weight": 6,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 36,
+      "role_name": "相处愉快的上级",
+      "definition": "一个在其手下工作、你喜欢的雇主、领导或官员",
+      "category": "权威与师长",
+      "tags": [
+        "非学生",
+        "已工作",
+        "权威关系"
+      ],
+      "match_weight": 7,
+      "applicable_population": "有工作经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 37,
+      "role_name": "相处困难的上级",
+      "definition": "一个在其手下工作、你感到焦虑的雇主、领导或官员",
+      "category": "权威与师长",
+      "tags": [
+        "非学生",
+        "已工作",
+        "权威关系"
+      ],
+      "match_weight": 7,
+      "applicable_population": "有工作经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 38,
+      "role_name": "前下属",
+      "definition": "你以前管理或带过的下属",
+      "category": "权威与师长",
+      "tags": [
+        "非学生",
+        "已工作",
+        "企业管理者",
+        "职场关系"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有管理经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 39,
+      "role_name": "行业前辈",
+      "definition": "在行业里资历比你深、愿意指点你的前辈",
+      "category": "权威与师长",
+      "tags": [
+        "非学生",
+        "已工作",
+        "职场关系",
+        "社会影响"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有职场经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 40,
+      "role_name": "职场导师",
+      "definition": "在职业道路上给予你系统指导的人",
+      "category": "权威与师长",
+      "tags": [
+        "非学生",
+        "已工作",
+        "职场关系"
+      ],
+      "match_weight": 7,
+      "applicable_population": "有职场经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 41,
+      "role_name": "值得尊敬的权威人物",
+      "definition": "你所认识的最值得尊敬的权威人物",
+      "category": "权威与师长",
+      "tags": [
+        "全员适用",
+        "社会关系"
+      ],
+      "match_weight": 6,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 42,
+      "role_name": "最聪明的人",
+      "definition": "你所认识的最聪明的人",
+      "category": "价值与态度人物",
+      "tags": [
+        "全员适用",
+        "价值判断"
+      ],
+      "match_weight": 6,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 43,
+      "role_name": "最成功的人",
+      "definition": "你所认识的最成功的人",
+      "category": "价值与态度人物",
+      "tags": [
+        "全员适用",
+        "价值判断"
+      ],
+      "match_weight": 6,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 44,
+      "role_name": "最有趣的人",
+      "definition": "你所认识的最有趣的人",
+      "category": "价值与态度人物",
+      "tags": [
+        "全员适用",
+        "价值判断"
+      ],
+      "match_weight": 6,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 45,
+      "role_name": "最幸福的人",
+      "definition": "你所认识的最幸福的人",
+      "category": "价值与态度人物",
+      "tags": [
+        "全员适用",
+        "价值判断"
+      ],
+      "match_weight": 6,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 46,
+      "role_name": "最有创造力的人",
+      "definition": "你所认识的最有创造力或艺术气质的人",
+      "category": "价值与态度人物",
+      "tags": [
+        "全员适用",
+        "价值判断"
+      ],
+      "match_weight": 5,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 47,
+      "role_name": "最淡然的人",
+      "definition": "你所认识的最从容、心态最平和的人",
+      "category": "价值与态度人物",
+      "tags": [
+        "全员适用",
+        "价值判断"
+      ],
+      "match_weight": 5,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 48,
+      "role_name": "道德标准最高的人",
+      "definition": "你所认识的道德标准最高的人",
+      "category": "价值与态度人物",
+      "tags": [
+        "全员适用",
+        "价值判断"
+      ],
+      "match_weight": 6,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 49,
+      "role_name": "人生榜样",
+      "definition": "你希望成为或最敬佩的人生榜样",
+      "category": "价值与态度人物",
+      "tags": [
+        "全员适用",
+        "价值判断",
+        "社会影响"
+      ],
+      "match_weight": 6,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 50,
+      "role_name": "创作灵感缪斯",
+      "definition": "一个能给你带来创作灵感或启发的人",
+      "category": "价值与态度人物",
+      "tags": [
+        "全员适用",
+        "价值判断"
+      ],
+      "match_weight": 4,
+      "applicable_population": "有创作习惯的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 51,
+      "role_name": "最想帮助的人",
+      "definition": "一个你很想帮助的人，或一个你感觉对不起的人",
+      "category": "价值与态度人物",
+      "tags": [
+        "全员适用",
+        "同情关怀"
+      ],
+      "match_weight": 6,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 52,
+      "role_name": "不喜欢你的人",
+      "definition": "一个与你关系密切、但似乎不喜欢你的人",
+      "category": "价值与态度人物",
+      "tags": [
+        "18岁以上",
+        "复杂关系"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有复杂人际关系者",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 53,
+      "role_name": "让你感到不安的人",
+      "definition": "一个让你感到最不安或最不舒服的人",
+      "category": "价值与态度人物",
+      "tags": [
+        "18岁以上",
+        "复杂关系"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有复杂人际关系者",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 54,
+      "role_name": "最近认识并想了解的人",
+      "definition": "最近认识的一个你很想了解的人",
+      "category": "价值与态度人物",
+      "tags": [
+        "18岁以上",
+        "社交需求"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有社交拓展意愿者",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 55,
+      "role_name": "失联已久的朋友",
+      "definition": "一个曾经很亲密、但现在已经很久没有联系的朋友",
+      "category": "失联与记忆关系",
+      "tags": [
+        "全员适用",
+        "失联关系",
+        "记忆关系"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有失联朋友的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": {
+        "has_typical_mobility": true,
+        "direction": "由近变远",
+        "common_triggers": [
+          "搬家",
+          "毕业",
+          "各自成家"
+        ]
+      }
+    },
+    {
+      "id": 56,
+      "role_name": "已故的亲人",
+      "definition": "一个已经去世、但对你人生影响深远的亲人",
+      "category": "失联与记忆关系",
+      "tags": [
+        "全员适用",
+        "失联关系",
+        "记忆关系"
+      ],
+      "match_weight": 5,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 57,
+      "role_name": "家族长辈",
+      "definition": "家族中一位年长但非父母的重要长辈（如叔伯、姑姨）",
+      "category": "家庭与亲属",
+      "tags": [
+        "全员适用",
+        "亲戚网络",
+        "社会影响"
+      ],
+      "match_weight": 6,
+      "applicable_population": "所有用户",
+      "local_descriptor": "父系：伯伯/伯父/大爷（北方，父亲之兄）、叔叔（父亲之弟）、姑姑/姑妈（父亲之姐妹）、婶婶（叔叔之妻）、大娘/伯母（伯伯之妻）。母系：舅舅（母亲之兄弟）、姨妈/姨母（母亲之姐妹）、舅妈（舅舅之妻）、姨父（姨妈之夫）。粤语区：阿伯/伯父、阿叔、姑姐、姨妈。闽南语区：阿伯、阿叔、阿姑、阿姨",
+      "typical_situation": "家族事务协调、人生经验传承、春节团聚",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 58,
+      "role_name": "精神导师",
+      "definition": "给你提供精神指引或哲学启发的导师型人物",
+      "category": "权威与师长",
+      "tags": [
+        "全员适用",
+        "社会影响",
+        "价值判断"
+      ],
+      "match_weight": 6,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 59,
+      "role_name": "网友",
+      "definition": "你在网络上认识、对你较有影响的人",
+      "category": "信息时代新兴关系",
+      "tags": [
+        "16岁以上",
+        "数字原住民",
+        "有网络社交",
+        "城市"
+      ],
+      "match_weight": 7,
+      "applicable_population": "有网络社交习惯的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 60,
+      "role_name": "游戏队友",
+      "definition": "你经常一起玩网络游戏的队友",
+      "category": "信息时代新兴关系",
+      "tags": [
+        "16-35岁",
+        "数字原住民",
+        "有游戏经历",
+        "兴趣同伴"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有游戏习惯的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 61,
+      "role_name": "社群伙伴",
+      "definition": "你在线上社群（如微信群、知识星球等）中经常互动的人",
+      "category": "信息时代新兴关系",
+      "tags": [
+        "18-45岁",
+        "有线上社群",
+        "城市",
+        "数字原住民"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有线上社群参与的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 62,
+      "role_name": "同好群主",
+      "definition": "你所在兴趣社群（追星、手工、阅读等）的组织者或核心人物",
+      "category": "信息时代新兴关系",
+      "tags": [
+        "18岁以上",
+        "有线上社群",
+        "兴趣同伴"
+      ],
+      "match_weight": 5,
+      "applicable_population": "参与兴趣社群者",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 63,
+      "role_name": "虚拟偶像或主播",
+      "definition": "你长期关注、投入情感的虚拟偶像或网络主播（非实体人物）",
+      "category": "数字身份与虚拟关系",
+      "tags": [
+        "16-35岁",
+        "数字原住民",
+        "有网络社交",
+        "虚拟身份"
+      ],
+      "match_weight": 3,
+      "applicable_population": "有虚拟偶像偏好的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 64,
+      "role_name": "AI陪伴助手",
+      "definition": "你经常使用的AI对话助手或AI伴侣（如ChatGPT、AI伴侣应用）",
+      "category": "数字身份与虚拟关系",
+      "tags": [
+        "18岁以上",
+        "数字原住民",
+        "虚拟身份",
+        "数字陪伴"
+      ],
+      "match_weight": 2,
+      "applicable_population": "深度使用AI工具的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 65,
+      "role_name": "线上语伴",
+      "definition": "你在语言学习App或平台上认识、互相练习口语的伙伴",
+      "category": "信息时代新兴关系",
+      "tags": [
+        "16岁以上",
+        "有网络社交",
+        "学生",
+        "数字原住民"
+      ],
+      "match_weight": 4,
+      "applicable_population": "有语言学习需求的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 66,
+      "role_name": "外卖骑手",
+      "definition": "你生活中经常接触但不一定知道名字的外卖骑手",
+      "category": "信息时代新兴关系",
+      "tags": [
+        "全员适用",
+        "高频服务",
+        "城市",
+        "半熟人"
+      ],
+      "match_weight": 4,
+      "applicable_population": "有外卖消费习惯的城市用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 67,
+      "role_name": "快递员",
+      "definition": "你生活中经常接触的快递员",
+      "category": "信息时代新兴关系",
+      "tags": [
+        "全员适用",
+        "高频服务",
+        "城市",
+        "半熟人"
+      ],
+      "match_weight": 4,
+      "applicable_population": "有网购习惯的城市用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 68,
+      "role_name": "网约车司机",
+      "definition": "你生活中经常接触的网约车司机",
+      "category": "信息时代新兴关系",
+      "tags": [
+        "18岁以上",
+        "高频服务",
+        "城市",
+        "半熟人"
+      ],
+      "match_weight": 4,
+      "applicable_population": "有打车习惯的城市用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 69,
+      "role_name": "社区民警或辅警",
+      "definition": "你所在社区经常接触的民警或辅警",
+      "category": "半熟人",
+      "tags": [
+        "全员适用",
+        "居住关系",
+        "城市",
+        "半熟人"
+      ],
+      "match_weight": 3,
+      "applicable_population": "城市居民",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 70,
+      "role_name": "门卫或保安",
+      "definition": "你居住或工作场所的门卫、保安人员",
+      "category": "半熟人",
+      "tags": [
+        "全员适用",
+        "居住关系",
+        "高频服务",
+        "半熟人"
+      ],
+      "match_weight": 4,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 71,
+      "role_name": "前台或行政人员",
+      "definition": "你工作或居住场所的前台、行政服务人员",
+      "category": "半熟人",
+      "tags": [
+        "非学生",
+        "已工作",
+        "居住关系",
+        "高频服务",
+        "半熟人"
+      ],
+      "match_weight": 4,
+      "applicable_population": "有固定工作或住所的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 72,
+      "role_name": "理发师或造型师",
+      "definition": "你长期固定找的理发师或造型师",
+      "category": "半熟人",
+      "tags": [
+        "全员适用",
+        "高频服务",
+        "半熟人"
+      ],
+      "match_weight": 4,
+      "applicable_population": "有固定理发师者",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 73,
+      "role_name": "家政阿姨或保洁员",
+      "definition": "定期帮你打扫或照顾家庭的家政服务人员",
+      "category": "半熟人",
+      "tags": [
+        "已婚",
+        "有子女",
+        "城市",
+        "高频服务",
+        "半熟人"
+      ],
+      "match_weight": 3,
+      "applicable_population": "有家政服务的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 74,
+      "role_name": "经常光顾的店铺老板",
+      "definition": "你经常光顾的店铺或摊位的老板",
+      "category": "信息时代新兴关系",
+      "tags": [
+        "全员适用",
+        "居住关系",
+        "高频服务",
+        "半熟人"
+      ],
+      "match_weight": 4,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 75,
+      "role_name": "宠物店店主或兽医",
+      "definition": "你养宠物后固定光顾的宠物店店主或兽医",
+      "category": "半熟人",
+      "tags": [
+        "有宠物",
+        "城市",
+        "高频服务",
+        "半熟人"
+      ],
+      "match_weight": 3,
+      "applicable_population": "养宠物的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 76,
+      "role_name": "物业或社区工作人员",
+      "definition": "你生活中经常接触的物业或社区工作人员",
+      "category": "信息时代新兴关系",
+      "tags": [
+        "全员适用",
+        "居住关系",
+        "高频服务",
+        "城市",
+        "半熟人"
+      ],
+      "match_weight": 4,
+      "applicable_population": "城市居民",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 77,
+      "role_name": "健身教练",
+      "definition": "你在健身或运动场景中固定跟练的教练",
+      "category": "半熟人",
+      "tags": [
+        "16-45岁",
+        "有健身经历",
+        "高频服务",
+        "半熟人"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有健身习惯的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 78,
+      "role_name": "行业群友",
+      "definition": "你在行业交流群中认识的功能性关系伙伴",
+      "category": "信息时代新兴关系",
+      "tags": [
+        "非学生",
+        "已工作",
+        "城市",
+        "有线上社群"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有行业交流需求者",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 79,
+      "role_name": "线上课程同学",
+      "definition": "你在线上课程中认识的同学",
+      "category": "信息时代新兴关系",
+      "tags": [
+        "16岁以上",
+        "有线上学习经历",
+        "学生",
+        "数字原住民"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有在线学习经历者",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 80,
+      "role_name": "孩子同学的家长",
+      "definition": "你因孩子而认识的家长",
+      "category": "信息时代新兴关系",
+      "tags": [
+        "有子女",
+        "已婚",
+        "30-50岁",
+        "半熟人"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有子女的家庭",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 81,
+      "role_name": "企业客户或甲方",
+      "definition": "你工作中长期对接的客户或甲方代表",
+      "category": "权威与师长",
+      "tags": [
+        "非学生",
+        "已工作",
+        "职场关系",
+        "权威关系"
+      ],
+      "match_weight": 4,
+      "applicable_population": "有对外业务对接的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 82,
+      "role_name": "业务对接人",
+      "definition": "你工作中长期合作的供应商或合作伙伴的对接人",
+      "category": "朋友与同伴",
+      "tags": [
+        "非学生",
+        "已工作",
+        "职场关系",
+        "熟人关系"
+      ],
+      "match_weight": 4,
+      "applicable_population": "有对外业务对接的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 83,
+      "role_name": "会籍顾问或销售顾问",
+      "definition": "你购买服务（健身、美容、金融等）后长期对接的销售或会籍人员",
+      "category": "半熟人",
+      "tags": [
+        "18岁以上",
+        "城市",
+        "高频服务",
+        "半熟人"
+      ],
+      "match_weight": 3,
+      "applicable_population": "有长期服务订阅的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 84,
+      "role_name": "一起养宠物的朋友",
+      "definition": "你有共同养宠经历的朋友，如遛狗认识的邻居、宠物社群好友",
+      "category": "朋友与同伴",
+      "tags": [
+        "18岁以上",
+        "兴趣同伴",
+        "社交伙伴",
+        "居住关系"
+      ],
+      "match_weight": 4,
+      "applicable_population": "养宠物的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 85,
+      "role_name": "同担或追星搭子",
+      "definition": "一起追星、参加线下演唱会的同好伙伴",
+      "category": "信息时代新兴关系",
+      "tags": [
+        "16-35岁",
+        "数字原住民",
+        "兴趣同伴",
+        "有网络社交"
+      ],
+      "match_weight": 4,
+      "applicable_population": "有追星经历者",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 86,
+      "role_name": "社交媒体互动最多的人",
+      "definition": "在社交媒体上与你互动最多的人（私信、评论、转发等）",
+      "category": "信息时代新兴关系",
+      "tags": [
+        "18岁以上",
+        "有社交媒体",
+        "城市",
+        "数字原住民"
+      ],
+      "match_weight": 6,
+      "applicable_population": "活跃的社交媒体用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 87,
+      "role_name": "搭子文化中的各种搭子",
+      "definition": "因特定活动结伴的伙伴（如饭搭子、学习搭子、购物搭子等）",
+      "category": "朋友与同伴",
+      "tags": [
+        "18岁以上",
+        "兴趣同伴",
+        "社交伙伴"
+      ],
+      "match_weight": 4,
+      "applicable_population": "有特定社交场景需求者",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 88,
+      "role_name": "子女（年幼）",
+      "definition": "你年幼的子女（学龄前到小学阶段）",
+      "category": "家庭与亲属",
+      "tags": [
+        "有子女",
+        "为人父母",
+        "核心家庭",
+        "育儿阶段"
+      ],
+      "match_weight": 9,
+      "applicable_population": "有年幼子女的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 89,
+      "role_name": "子女（年长）",
+      "definition": "你年长的子女（中学及以上，包括已成年子女）",
+      "category": "家庭与亲属",
+      "tags": [
+        "有子女",
+        "为人父母",
+        "核心家庭",
+        "31-45岁",
+        "46-60岁",
+        "60岁以上"
+      ],
+      "match_weight": 9,
+      "applicable_population": "有年长或成年子女的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 90,
+      "role_name": "岳母或婆婆",
+      "definition": "你配偶的母亲",
+      "category": "家庭与亲属",
+      "tags": [
+        "已婚",
+        "23岁以上",
+        "亲戚网络"
+      ],
+      "match_weight": 7,
+      "applicable_population": "已婚用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 91,
+      "role_name": "岳父或公公",
+      "definition": "你配偶的父亲",
+      "category": "家庭与亲属",
+      "tags": [
+        "已婚",
+        "23岁以上",
+        "亲戚网络"
+      ],
+      "match_weight": 7,
+      "applicable_population": "已婚用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 92,
+      "role_name": "前夫或前妻",
+      "definition": "你已离婚的前配偶",
+      "category": "家庭与亲属",
+      "tags": [
+        "离异",
+        "离异相关",
+        "复杂关系",
+        "23岁以上"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有离婚经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": {
+        "has_typical_mobility": true,
+        "direction": "由近变远",
+        "common_triggers": [
+          "离婚",
+          "感情破裂"
+        ]
+      }
+    },
+    {
+      "id": 93,
+      "role_name": "继父或养父",
+      "definition": "你的继父或养父",
+      "category": "家庭与亲属",
+      "tags": [
+        "重组家庭",
+        "核心家庭",
+        "全员适用"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有继父或养父的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 94,
+      "role_name": "继母或养母",
+      "definition": "你的继母或养母",
+      "category": "家庭与亲属",
+      "tags": [
+        "重组家庭",
+        "核心家庭",
+        "全员适用"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有继母或养母的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 95,
+      "role_name": "被赡养的父亲",
+      "definition": "你年迈需要日常照护的父亲",
+      "category": "家庭与亲属",
+      "tags": [
+        "需要赡养父母",
+        "养老照护",
+        "31-45岁",
+        "46-60岁",
+        "核心家庭"
+      ],
+      "match_weight": 7,
+      "applicable_population": "有养老照护责任的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 96,
+      "role_name": "被赡养的母亲",
+      "definition": "你年迈需要日常照护的母亲",
+      "category": "家庭与亲属",
+      "tags": [
+        "需要赡养父母",
+        "养老照护",
+        "31-45岁",
+        "46-60岁",
+        "核心家庭"
+      ],
+      "match_weight": 7,
+      "applicable_population": "有养老照护责任的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 97,
+      "role_name": "嫂子或姐夫",
+      "definition": "你哥哥或姐姐的配偶",
+      "category": "家庭与亲属",
+      "tags": [
+        "全员适用",
+        "亲戚网络",
+        "兄弟姐妹"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有已婚兄弟姐妹的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 98,
+      "role_name": "弟媳或妹夫",
+      "definition": "你弟弟或妹妹的配偶",
+      "category": "家庭与亲属",
+      "tags": [
+        "全员适用",
+        "亲戚网络",
+        "兄弟姐妹"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有已婚弟妹的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 99,
+      "role_name": "儿媳或女婿",
+      "definition": "你子女的配偶",
+      "category": "家庭与亲属",
+      "tags": [
+        "有子女",
+        "为人父母",
+        "46-60岁",
+        "60岁以上",
+        "亲戚网络"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有已婚子女的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 100,
+      "role_name": "住家保姆或护工",
+      "definition": "照顾你或你家人日常起居的保姆、护工或月嫂",
+      "category": "家庭与亲属",
+      "tags": [
+        "养老照护",
+        "高频服务",
+        "31-45岁",
+        "46-60岁",
+        "60岁以上",
+        "有子女"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有家政照护需求的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 101,
+      "role_name": "大学同学",
+      "definition": "你大学（含大专）阶段关系最密切的同学",
+      "category": "朋友与同伴",
+      "tags": [
+        "19-22岁",
+        "23-30岁",
+        "31-45岁",
+        "同学关系",
+        "同辈朋友"
+      ],
+      "match_weight": 8,
+      "applicable_population": "有高等教育经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 102,
+      "role_name": "中小学同学",
+      "definition": "你中小学阶段关系最密切的同学",
+      "category": "朋友与同伴",
+      "tags": [
+        "全员适用",
+        "同学关系",
+        "同辈朋友"
+      ],
+      "match_weight": 7,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 103,
+      "role_name": "同桌",
+      "definition": "你学生时代印象最深或对你影响最大的同桌",
+      "category": "朋友与同伴",
+      "tags": [
+        "全员适用",
+        "同学关系",
+        "同辈朋友"
+      ],
+      "match_weight": 7,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 104,
+      "role_name": "校友",
+      "definition": "毕业后仍保持联系、对你较重要的校友",
+      "category": "朋友与同伴",
+      "tags": [
+        "19-22岁",
+        "23-30岁",
+        "31-45岁",
+        "校友关系",
+        "熟人关系"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有学历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 105,
+      "role_name": "师兄或师姐",
+      "definition": "比你高年级、在你求学或发展中对你有影响的学长/学姐",
+      "category": "朋友与同伴",
+      "tags": [
+        "19-22岁",
+        "23-30岁",
+        "同学关系",
+        "教育关系",
+        "社会影响"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有高等教育经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 106,
+      "role_name": "师弟或师妹",
+      "definition": "比你低年级、你曾指导或帮助过的学弟/学妹",
+      "category": "朋友与同伴",
+      "tags": [
+        "19-22岁",
+        "23-30岁",
+        "31-45岁",
+        "同学关系",
+        "教育关系"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有高等教育经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 107,
+      "role_name": "宿舍室友",
+      "definition": "你在学校宿舍一起生活过的室友",
+      "category": "朋友与同伴",
+      "tags": [
+        "19-22岁",
+        "23-30岁",
+        "学生",
+        "宿舍关系",
+        "居住关系"
+      ],
+      "match_weight": 7,
+      "applicable_population": "有住校经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 108,
+      "role_name": "闺蜜",
+      "definition": "你最知心、无话不谈的同性好友",
+      "category": "朋友与同伴",
+      "tags": [
+        "全员适用",
+        "同辈朋友",
+        "亲密关系"
+      ],
+      "match_weight": 8,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 109,
+      "role_name": "哥们或铁兄弟",
+      "definition": "你最铁、可以两肋插刀的同性兄弟般的朋友",
+      "category": "朋友与同伴",
+      "tags": [
+        "全员适用",
+        "同辈朋友",
+        "亲密关系"
+      ],
+      "match_weight": 8,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 110,
+      "role_name": "战友",
+      "definition": "你一起服役或军训期间结识的战友",
+      "category": "朋友与同伴",
+      "tags": [
+        "退役军人",
+        "18岁以上",
+        "同辈朋友",
+        "亲密关系"
+      ],
+      "match_weight": 7,
+      "applicable_population": "有军队服役经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 111,
+      "role_name": "研究生导师",
+      "definition": "你硕士或博士阶段的导师",
+      "category": "权威与师长",
+      "tags": [
+        "23-30岁",
+        "31-45岁",
+        "教育关系",
+        "权威关系",
+        "社会影响"
+      ],
+      "match_weight": 8,
+      "applicable_population": "有研究生学历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 112,
+      "role_name": "辅导员或班主任",
+      "definition": "你大学时的辅导员或中小学时期的班主任",
+      "category": "权威与师长",
+      "tags": [
+        "全员适用",
+        "教育关系",
+        "权威关系"
+      ],
+      "match_weight": 7,
+      "applicable_population": "所有用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 113,
+      "role_name": "实习导师或带教师傅",
+      "definition": "你实习或初入职场时手把手带你的导师",
+      "category": "权威与师长",
+      "tags": [
+        "19-22岁",
+        "23-30岁",
+        "职场关系",
+        "教育关系",
+        "社会影响"
+      ],
+      "match_weight": 7,
+      "applicable_population": "有实习或新人期的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 114,
+      "role_name": "前上司",
+      "definition": "你以前工作时的直接上级",
+      "category": "权威与师长",
+      "tags": [
+        "非学生",
+        "已工作",
+        "权威关系",
+        "职场关系"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有跳槽或离职经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": {
+        "has_typical_mobility": true,
+        "direction": "由近变远",
+        "common_triggers": [
+          "离职",
+          "跳槽",
+          "组织架构调整"
+        ]
+      }
+    },
+    {
+      "id": 115,
+      "role_name": "老板或创始人",
+      "definition": "你所在公司或单位的最高负责人",
+      "category": "权威与师长",
+      "tags": [
+        "非学生",
+        "已工作",
+        "权威关系",
+        "职场关系"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有雇主或单位领导的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 116,
+      "role_name": "创业合伙人",
+      "definition": "和你一起创业、共同承担风险的合伙人",
+      "category": "权威与师长",
+      "tags": [
+        "非学生",
+        "已工作",
+        "创业相关",
+        "职场关系",
+        "亲密关系"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有创业经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": {
+        "has_typical_mobility": true,
+        "direction": "由近变远",
+        "common_triggers": [
+          "散伙",
+          "股权纠纷",
+          "方向分歧"
+        ]
+      }
+    },
+    {
+      "id": 117,
+      "role_name": "教练或师父",
+      "definition": "你的体育教练、武术师父、技艺传承人或修行引路人",
+      "category": "权威与师长",
+      "tags": [
+        "全员适用",
+        "教育关系",
+        "权威关系",
+        "社会影响"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有拜师或教练经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 118,
+      "role_name": "面试官",
+      "definition": "你面试经历中印象最深刻的面试官",
+      "category": "权威与师长",
+      "tags": [
+        "19-22岁",
+        "23-30岁",
+        "31-45岁",
+        "职场关系",
+        "权威关系"
+      ],
+      "match_weight": 4,
+      "applicable_population": "有面试/求职经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 119,
+      "role_name": "病友",
+      "definition": "你因长期疾病治疗过程中结识、互相支持的病友",
+      "category": "医疗与健康",
+      "tags": [
+        "医疗健康",
+        "有长期疾病",
+        "生命阶段同伴"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有长期疾病或治疗经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 120,
+      "role_name": "心理咨询师或治疗师",
+      "definition": "你长期寻求心理咨询或治疗的专业人员",
+      "category": "医疗与健康",
+      "tags": [
+        "心理健康",
+        "医疗健康",
+        "权威关系",
+        "18岁以上"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有心理咨询或治疗经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 121,
+      "role_name": "主治医生",
+      "definition": "你长期就诊、最信任的主治医生",
+      "category": "医疗与健康",
+      "tags": [
+        "医疗健康",
+        "权威关系",
+        "高频服务"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有长期就诊关系的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 122,
+      "role_name": "康复师或理疗师",
+      "definition": "帮你做康复训练或理疗的专业人员",
+      "category": "医疗与健康",
+      "tags": [
+        "医疗健康",
+        "有残障",
+        "有长期疾病",
+        "高频服务"
+      ],
+      "match_weight": 4,
+      "applicable_population": "有康复需求的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 123,
+      "role_name": "药店店员",
+      "definition": "你常去的药店里认识你的店员",
+      "category": "医疗与健康",
+      "tags": [
+        "医疗健康",
+        "半熟人",
+        "高频服务"
+      ],
+      "match_weight": 3,
+      "applicable_population": "有固定购药习惯的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 124,
+      "role_name": "教友或信仰同伴",
+      "definition": "你在宗教、修行或信仰活动中结识的同伴",
+      "category": "信仰与精神",
+      "tags": [
+        "宗教社群",
+        "信仰关系",
+        "生命阶段同伴",
+        "18岁以上"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有宗教信仰或修行实践的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 125,
+      "role_name": "精神导师或上师",
+      "definition": "在精神、信仰或人生哲学上给你指引的导师",
+      "category": "信仰与精神",
+      "tags": [
+        "宗教社群",
+        "信仰关系",
+        "权威关系",
+        "社会影响"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有精神导师的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 126,
+      "role_name": "老乡或同乡",
+      "definition": "你在异地遇到的老乡、同乡会成员或老家来的朋友",
+      "category": "流动与迁移",
+      "tags": [
+        "流动人口",
+        "老乡关系",
+        "外地人",
+        "熟人关系",
+        "18岁以上"
+      ],
+      "match_weight": 7,
+      "applicable_population": "有流动经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 127,
+      "role_name": "北漂或沪漂或深漂同伴",
+      "definition": "和你在同一个大城市漂泊打拼的朋友",
+      "category": "流动与迁移",
+      "tags": [
+        "流动人口",
+        "外地人",
+        "城市",
+        "23-30岁",
+        "31-45岁",
+        "同辈朋友"
+      ],
+      "match_weight": 6,
+      "applicable_population": "在大城市漂泊打拼的流动用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 128,
+      "role_name": "留守儿童",
+      "definition": "你留在老家由祖辈或其他亲属照顾的孩子",
+      "category": "流动与迁移",
+      "tags": [
+        "流动人口",
+        "有子女",
+        "为人父母",
+        "农村",
+        "31-45岁"
+      ],
+      "match_weight": 7,
+      "applicable_population": "有留守子女的流动用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": {
+        "has_typical_mobility": true,
+        "direction": "由近变远",
+        "common_triggers": [
+          "外出务工",
+          "异地就业"
+        ]
+      }
+    },
+    {
+      "id": 129,
+      "role_name": "返乡青年同伴",
+      "definition": "和你一样从城市返回老家发展的朋友",
+      "category": "流动与迁移",
+      "tags": [
+        "流动人口",
+        "返乡经历",
+        "农村",
+        "23-30岁",
+        "31-45岁",
+        "同辈朋友"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有返乡经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 130,
+      "role_name": "房东",
+      "definition": "你租房时的房东或二房东",
+      "category": "半熟人",
+      "tags": [
+        "有租房经历",
+        "居住关系",
+        "城市",
+        "外地人",
+        "半熟人"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有租房经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 131,
+      "role_name": "驾校教练",
+      "definition": "教你开车的驾校教练",
+      "category": "半熟人",
+      "tags": [
+        "全员适用",
+        "教育关系",
+        "半熟人"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有学车经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 132,
+      "role_name": "子女的老师",
+      "definition": "你孩子的班主任或主要任课老师",
+      "category": "半熟人",
+      "tags": [
+        "有子女",
+        "为人父母",
+        "教育关系",
+        "半熟人"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有学龄子女的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 133,
+      "role_name": "快递驿站老板",
+      "definition": "你经常取快递或寄快递的驿站老板",
+      "category": "半熟人",
+      "tags": [
+        "全员适用",
+        "高频服务",
+        "城市",
+        "半熟人",
+        "有网购习惯"
+      ],
+      "match_weight": 4,
+      "applicable_population": "有网购习惯的城市用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 134,
+      "role_name": "农村邻居或同村人",
+      "definition": "你在农村老家关系最密切的邻居或同村人",
+      "category": "农村与乡土",
+      "tags": [
+        "农村",
+        "农村乡土",
+        "农村社交",
+        "居住关系",
+        "熟人关系"
+      ],
+      "match_weight": 7,
+      "applicable_population": "有农村成长或生活经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 135,
+      "role_name": "村干部",
+      "definition": "你老家村里的村干部（村支书、村长或妇女主任等）",
+      "category": "农村与乡土",
+      "tags": [
+        "农村",
+        "农村乡土",
+        "农村社交",
+        "权威关系"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有农村生活经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 136,
+      "role_name": "乡村医生或村医",
+      "definition": "你老家村里的医生或卫生所医务人员",
+      "category": "农村与乡土",
+      "tags": [
+        "农村",
+        "农村乡土",
+        "医疗健康",
+        "半熟人"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有农村生活经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 137,
+      "role_name": "集市摊贩或小卖部老板",
+      "definition": "你农村老家集市上或村口小卖部常打交道的摊贩/老板",
+      "category": "农村与乡土",
+      "tags": [
+        "农村",
+        "农村乡土",
+        "半熟人",
+        "高频服务"
+      ],
+      "match_weight": 4,
+      "applicable_population": "有农村生活经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 138,
+      "role_name": "孕妈群友",
+      "definition": "你怀孕期间在孕妈群或产检中认识的同伴",
+      "category": "生命阶段同伴",
+      "tags": [
+        "有孕期经历",
+        "生命阶段同伴",
+        "育儿阶段",
+        "23-30岁",
+        "31-45岁",
+        "有线上社群"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有怀孕经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 139,
+      "role_name": "月子中心同伴或月嫂",
+      "definition": "你坐月子期间同住的月嫂或月子中心里认识的同伴",
+      "category": "生命阶段同伴",
+      "tags": [
+        "有月子经历",
+        "生命阶段同伴",
+        "育儿阶段",
+        "23-30岁",
+        "31-45岁",
+        "高频服务"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有坐月子经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 140,
+      "role_name": "高考备考同伴",
+      "definition": "你高考备考期间一起奋斗、互相打气的同学",
+      "category": "生命阶段同伴",
+      "tags": [
+        "有高考备考经历",
+        "生命阶段同伴",
+        "同学关系",
+        "19-22岁",
+        "23-30岁"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有高考经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 141,
+      "role_name": "失业或求职同伴",
+      "definition": "你失业或求职期间互相打气、分享信息的同伴",
+      "category": "生命阶段同伴",
+      "tags": [
+        "有失业/求职经历",
+        "生命阶段同伴",
+        "19-22岁",
+        "23-30岁",
+        "31-45岁"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有失业或求职经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 142,
+      "role_name": "面基对象",
+      "definition": "你从线上认识后在线下见过面的网友",
+      "category": "信息时代新兴关系",
+      "tags": [
+        "有网络社交",
+        "数字原住民",
+        "18岁以上",
+        "社交伙伴"
+      ],
+      "match_weight": 5,
+      "applicable_population": "有线上转线下社交经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 143,
+      "role_name": "社区团购团长",
+      "definition": "你所在社区团购群的组织者或团长",
+      "category": "信息时代新兴关系",
+      "tags": [
+        "有线上社群",
+        "高频服务",
+        "城市",
+        "半熟人",
+        "平台经济"
+      ],
+      "match_weight": 4,
+      "applicable_population": "有社区团购参与经历的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 144,
+      "role_name": "广场舞或晨练伙伴",
+      "definition": "你经常一起跳广场舞、打太极或晨练的伙伴",
+      "category": "生命阶段同伴",
+      "tags": [
+        "老年社交",
+        "60岁以上",
+        "46-60岁",
+        "兴趣同伴",
+        "社交伙伴"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有广场舞或晨练习惯的中老年用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 145,
+      "role_name": "老年大学同学",
+      "definition": "你在老年大学或社区老年活动中认识的同学",
+      "category": "生命阶段同伴",
+      "tags": [
+        "老年社交",
+        "60岁以上",
+        "同学关系",
+        "社交伙伴"
+      ],
+      "match_weight": 5,
+      "applicable_population": "参加老年大学或老年活动的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 146,
+      "role_name": "长期关注的博主或UP主",
+      "definition": "你长期关注、对其有情感连接的内容创作者（博主、UP主、主播等）",
+      "category": "信息时代新兴关系",
+      "tags": [
+        "有网络社交",
+        "数字原住民",
+        "内容创作者",
+        "16-35岁",
+        "18岁以上"
+      ],
+      "match_weight": 4,
+      "applicable_population": "长期关注特定内容创作者的用户",
+      "local_descriptor": "",
+      "typical_situation": "",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 147,
+      "role_name": "爷爷",
+      "definition": "你的父系祖父（父亲的父亲）",
+      "category": "家庭与亲属",
+      "tags": [
+        "全员适用",
+        "隔代亲属",
+        "核心家庭"
+      ],
+      "match_weight": 9,
+      "applicable_population": "所有用户",
+      "local_descriptor": "通用：爷爷；北方部分地区：祖父；粤语区：阿爷；闽南语区：阿公；客家话：阿公/公公；口语中常说\"我爷爷\"，幼儿称\"爷爷\"或叠字\"爷~爷\"",
+      "typical_situation": "童年照料、家族传承、隔代溺爱",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 148,
+      "role_name": "奶奶",
+      "definition": "你的父系祖母（父亲的母亲）",
+      "category": "家庭与亲属",
+      "tags": [
+        "全员适用",
+        "隔代亲属",
+        "核心家庭"
+      ],
+      "match_weight": 9,
+      "applicable_population": "所有用户",
+      "local_descriptor": "通用：奶奶；北方部分地区：祖母；粤语区：阿嫲、嫲嫲；闽南语区：阿嬷；客家话：阿婆/婆婆；口语中常说\"我奶奶\"，幼儿称\"奶奶\"或叠字\"奶~奶\"",
+      "typical_situation": "童年照料、家务帮手、情感港湾",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 149,
+      "role_name": "外公",
+      "definition": "你的母系祖父（母亲的父亲）",
+      "category": "家庭与亲属",
+      "tags": [
+        "全员适用",
+        "隔代亲属",
+        "亲戚网络"
+      ],
+      "match_weight": 8,
+      "applicable_population": "所有用户",
+      "local_descriptor": "【地域差异显著】南方（长江以南）：外公、外公爹爹；北方：姥爷（最通用）、老爷（山东/河北部分）、外姥（安徽部分）；粤语区：阿公、公公；闽南语区：阿公；客家话：姐公；吴语区（上海/江浙）：外公、外公爹爹",
+      "typical_situation": "童年照料、母系家族纽带、节假日团聚",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 150,
+      "role_name": "外婆",
+      "definition": "你的母系祖母（母亲的母亲）",
+      "category": "家庭与亲属",
+      "tags": [
+        "全员适用",
+        "隔代亲属",
+        "亲戚网络"
+      ],
+      "match_weight": 8,
+      "applicable_population": "所有用户",
+      "local_descriptor": "【地域差异显著】南方（长江以南）：外婆、外婆奶奶；北方：姥姥（最通用）、老娘（山东/河北部分）；粤语区：阿婆、婆婆；闽南语区：阿嬷；客家话：姐婆；吴语区（上海/江浙）：外婆、外婆奶奶",
+      "typical_situation": "童年照料、母系家族纽带、宠爱与庇护",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 151,
+      "role_name": "哥哥",
+      "definition": "你的亲生兄长，或在你生活中扮演兄长角色的人",
+      "category": "家庭与亲属",
+      "tags": [
+        "全员适用",
+        "兄弟姐妹",
+        "核心家庭"
+      ],
+      "match_weight": 8,
+      "applicable_population": "有兄长的用户",
+      "local_descriptor": "通用：哥哥、哥；口语：我哥、老哥；北方：哥、哥们儿（称呼兄长或男性朋友均可）；粤语区：大佬、阿哥；闽南语区：阿兄、哥啊；西南方言：哥老倌（四川，也泛称男性熟人）；网络用语：欧巴（韩语借词，年轻女性偶用）",
+      "typical_situation": "保护与被保护、学习榜样、竞争与认同",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 152,
+      "role_name": "弟弟",
+      "definition": "你的亲生弟弟，或在你生活中扮演弟弟角色的人",
+      "category": "家庭与亲属",
+      "tags": [
+        "全员适用",
+        "兄弟姐妹",
+        "核心家庭"
+      ],
+      "match_weight": 8,
+      "applicable_population": "有弟弟的用户",
+      "local_descriptor": "通用：弟弟、老弟；口语：我弟、小弟；北方：老弟、兄弟；粤语区：细佬、阿弟；闽南语区：小弟、弟啊；西南方言：幺弟（最小的弟弟）；网络用语：小老弟（调侃式称呼）",
+      "typical_situation": "照顾与责任、手足情深、代际差异",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 153,
+      "role_name": "姐姐",
+      "definition": "你的亲生姐姐，或在你生活中扮演姐姐角色的人",
+      "category": "家庭与亲属",
+      "tags": [
+        "全员适用",
+        "兄弟姐妹",
+        "核心家庭"
+      ],
+      "match_weight": 8,
+      "applicable_population": "有姐姐的用户",
+      "local_descriptor": "通用：姐姐、姐；口语：我姐、老姐；北方：姐；粤语区：家姐、阿姐；闽南语区：阿姊、姐啊；西南方言：姐儿（四川）；网络用语：欧尼（韩语借词，年轻女性偶用）、集美（\"姐妹\"谐音，网络调侃）",
+      "typical_situation": "照顾与引导、情感倾诉对象、姐妹情深",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 154,
+      "role_name": "妹妹",
+      "definition": "你的亲生妹妹，或在你生活中扮演妹妹角色的人",
+      "category": "家庭与亲属",
+      "tags": [
+        "全员适用",
+        "兄弟姐妹",
+        "核心家庭"
+      ],
+      "match_weight": 8,
+      "applicable_population": "有妹妹的用户",
+      "local_descriptor": "通用：妹妹、小妹；口语：我妹、老妹；北方：妹、妹子；粤语区：细妹、阿妹；闽南语区：小妹、妹啊；西南方言：幺妹（最小的妹妹，四川/重庆/贵州极常用，带有疼爱色彩）；网络用语：妹纸（\"妹子\"谐音）",
+      "typical_situation": "保护与宠爱、责任感、成长陪伴",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 155,
+      "role_name": "叔叔",
+      "definition": "你父亲的弟弟，或家族中比你父亲年幼的父辈男性",
+      "category": "家庭与亲属",
+      "tags": [
+        "全员适用",
+        "亲戚网络"
+      ],
+      "match_weight": 7,
+      "applicable_population": "所有用户",
+      "local_descriptor": "通用：叔叔；北方部分地区也按排行称：二叔、三叔、小叔；粤语区：阿叔、叔仔；闽南语区：阿叔；其配偶称：婶婶、婶儿（北方）、阿婶（南方）。注意：社会中泛称年长陌生男性也为\"叔叔\"，此角色指真正的亲属关系",
+      "typical_situation": "家族聚会、成长关心、与父亲的兄弟关系",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 156,
+      "role_name": "伯伯或大爷",
+      "definition": "你父亲的哥哥，或家族中比你父亲年长的父辈男性",
+      "category": "家庭与亲属",
+      "tags": [
+        "全员适用",
+        "亲戚网络"
+      ],
+      "match_weight": 7,
+      "applicable_population": "所有用户",
+      "local_descriptor": "【地域差异显著】通用：伯伯、伯父；北方（尤其华北/东北）：大爷（最通用）、大伯；南方：伯伯、大伯、阿伯；粤语区：阿伯、伯父；其配偶称：伯母、大娘（北方）、伯娘（南方）。按排行：大伯/大爷（老大）、二伯/二大爷（老二）",
+      "typical_situation": "家族事务主持、人生建议、威严与尊重",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 157,
+      "role_name": "姑姑",
+      "definition": "你父亲的姐妹",
+      "category": "家庭与亲属",
+      "tags": [
+        "全员适用",
+        "亲戚网络"
+      ],
+      "match_weight": 7,
+      "applicable_population": "所有用户",
+      "local_descriptor": "通用：姑姑、姑妈（已婚者多称姑妈）；北方：姑、姑儿；粤语区：姑姐（父亲之妹）、姑妈（父亲之姐）；闽南语区：阿姑；按排行：大姑、二姑、小姑。其丈夫称：姑父、姑丈（南方）；粤语区：姑丈",
+      "typical_situation": "节日走动、成长关怀、与父亲的兄妹/姐弟关系",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 158,
+      "role_name": "舅舅",
+      "definition": "你母亲的兄弟",
+      "category": "家庭与亲属",
+      "tags": [
+        "全员适用",
+        "亲戚网络"
+      ],
+      "match_weight": 7,
+      "applicable_population": "所有用户",
+      "local_descriptor": "通用：舅舅；北方按排行：大舅、二舅、老舅；粤语区：舅父、阿舅；闽南语区：阿舅、舅啊；其配偶称：舅妈（北方）、舅母（南方）、阿妗（闽南语区）。中国文化中舅舅在母系亲属中地位较高，有\"天上雷公，地上舅公\"之说（客家民系）",
+      "typical_situation": "母系家族事务、对外甥/外甥女的特别关爱、家族权威",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 159,
+      "role_name": "姨妈或阿姨",
+      "definition": "你母亲的姐妹",
+      "category": "家庭与亲属",
+      "tags": [
+        "全员适用",
+        "亲戚网络"
+      ],
+      "match_weight": 7,
+      "applicable_population": "所有用户",
+      "local_descriptor": "通用：姨妈（母亲之姐）、阿姨（母亲之妹）；北方：姨、姨儿；粤语区：姨妈（母之姐）、阿姨（母之妹）；闽南语区：阿姨、姨啊；按排行：大姨、二姨、小姨。其丈夫称：姨父（北方）、姨丈（南方）。注意：\"阿姨\"也用于泛称年长陌生女性，此角色指真正的亲属关系",
+      "typical_situation": "与母亲的姐妹情深、情感倾诉、节日走动",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 160,
+      "role_name": "堂兄弟或堂姐妹",
+      "definition": "你父亲的兄弟的子女（与你同姓的堂亲）",
+      "category": "家庭与亲属",
+      "tags": [
+        "全员适用",
+        "亲戚网络",
+        "同辈朋友"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有堂亲的用户",
+      "local_descriptor": "通用：堂哥/堂姐（年长）、堂弟/堂妹（年幼）；口语中常直接称\"哥/姐/弟/妹\"不加\"堂\"字。随独生子女一代成长，堂亲关系有时等同于亲兄弟姐妹。粤语区：堂大佬/堂家姐/堂细佬/堂细妹。注意：堂亲关系在中国传统家庭中比表亲更\"亲近\"（同姓、同宗族）",
+      "typical_situation": "童年玩伴、春节团聚、家族事务协作",
+      "circle_mobility_typical": null
+    },
+    {
+      "id": 161,
+      "role_name": "表兄弟或表姐妹",
+      "definition": "你母亲的兄弟姐妹的子女或你父亲的姐妹的子女（与你异姓的表亲）",
+      "category": "家庭与亲属",
+      "tags": [
+        "全员适用",
+        "亲戚网络",
+        "同辈朋友"
+      ],
+      "match_weight": 6,
+      "applicable_population": "有表亲的用户",
+      "local_descriptor": "通用：表哥/表姐（年长）、表弟/表妹（年幼）。粤语区：表大佬/表姐/表弟/表妹。闽南语区：表阿兄/表阿姊/表小弟/表小妹。俗语有\"一表三千里\"，形容表亲关系随代际逐渐疏远。但现实中常因性情相投而亲近，春节期间是表亲互动高峰",
+      "typical_situation": "童年玩伴、春节团聚、选择性亲近（不像堂亲有宗族义务感）",
+      "circle_mobility_typical": null
+    }
+  ]
+}
